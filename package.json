@@ -1,0 +1,29 @@
+{
+  "name": "intugine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "develop": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abuziyaadawajeeh/intugine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abuziyaadawajeeh/intugine/issues"
+  },
+  "homepage": "https://github.com/abuziyaadawajeeh/intugine#readme",
+  "dependencies": {
+    "config": "^3.3.7",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "mongoose": "^6.4.3",
+    "mongoose-auto-increment": "^5.0.1",
+    "mongoose-plugin-autoinc": "^1.1.9"
+  }
+}

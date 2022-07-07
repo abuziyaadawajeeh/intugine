@@ -1,0 +1,4 @@
+{
+    "mongodbURI" : "mongodb+srv://abuziyaada2:d1aw0FtsBEHfFSYq@cluster0.9v8gh.mongodb.net/intugine?retryWrites=true&w=majority", 
+    "JWTsecret" : "My secret"
+}

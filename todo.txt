@@ -1,0 +1,2 @@
+study about all packages used 
+see if schema validation , sanitization can be added from express validator 
