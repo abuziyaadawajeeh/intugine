@@ -34,6 +34,9 @@ app.use(express.json())
 // });
 
 app.use("/customers", require("./routes/customer"));
+app.use("/customersInCity" , require("./routes/customersInCity"))
+app.use("/customerPurchases" , require("./routes/customerPurchases"))
+app.use("/customerPurchaseShippings" , require("./routes/customerPurchaseShippings"))
 app.use("/orders" , require("./routes/order"))
 app.use("/shipping" , require("./routes/shipping"))
 
